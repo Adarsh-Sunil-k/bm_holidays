@@ -5,61 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-/* =================================================================== 
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # custom block grid STACK breakpoints
- *  # base style overrides
- *    ## links
- *  # typography & general theme styles
- *    ## Lists
- *    ## responsive video container
- *    ## floated image 
- *    ## tables
- *    ## Spacing
- *  # preloader
- *  # forms
- *    ## Style Placeholder Text
- *    ## Change Autocomplete styles in Chrome
- *  # buttons
- *  # additional components
- *    ## additional typo styles 
- *    ## skillbars
- *    ## alert box 
- *  # Common and Reusable Styles
- *  # site header
- *    ## header logo
- *    ## main navigation
- *    ## mobile menu toggle
- *    ## download resume button
- *  # hero
- *    ## hero social
- *    ## hero scroll
- *    ## animate intro content
- *    ## animations
- *  # about section
- *    ## career position
- *  # services section
- *    ## services list
- *  # portfolio
- *    ## portfolio list
- *  # testimonials
- *  # CTA
- *  # footer
- *    ## contact block
- *    ## copyright
- *    ## go top
- *
- * =================================================================== */
-
-
-
-
-/* ===================================================================
- * # custom block grid STACK breakpoints
- *
- * ------------------------------------------------------------------- */
 @media screen and (max-width:1000px) {
   .block-1000-full > .column {
     -ms-flex: 0 0 100%;
@@ -82,10 +27,7 @@
 
 
 
-/* ===================================================================
- * # base style overrides
- *
- * ------------------------------------------------------------------- */
+
 html {
   font-size: 10px;
 }
@@ -115,9 +57,7 @@ body {
   position: relative;
 }
 
-/* ------------------------------------------------------------------- 
- * ## links
- * ------------------------------------------------------------------- */
+
 a {
   color: #f9861a;
   -webkit-transition: all 0.3s ease-in-out;
@@ -137,10 +77,7 @@ a:active {
 
 
 
-/* ===================================================================
- * # typography & general theme styles
- * 
- * ------------------------------------------------------------------- */
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   /* font-family: "Ysabeau Office", sans-serif; */
   font-family: "Ysabeau Office", sans-serif;
@@ -3330,6 +3267,7 @@ html.no-csstransitions .hero-content {
 .footer-contact-block__content,
 .footer-contact-block__list li {
   padding: .8rem 0;
+  font-size: 28px;
 }
 
 .footer-contact-block__list {
@@ -3933,5 +3871,9 @@ padding-bottom: 0;
     display: none;
   } */
 } 
+
+.footer-email-us{
+  margin-top:3rem;
+  }
 
 
